@@ -1,0 +1,162 @@
+/* section-one start */
+body{
+    width: 100vw;
+}
+ .header{ 
+    width: 100%;
+    display: inline-flex;
+    letter-spacing: 0.1px;  
+    align-items: center;  
+    justify-content: center;
+    
+} 
+#workspace{
+font-family: sans-serif;
+font-size: 2em;
+color: rgba(113,102,102);
+}
+
+/* section-two start */
+.hero{ 
+    grid-template-columns: 1fr 570px 1fr;
+    grid-template-areas: "left main right"; 
+    gap: 39px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 93px auto 141px;
+    max-width: 1182px; 
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+}
+.hero img{
+    height: 31em;
+}
+.workspace-quiz-hero-left{
+    width:2em;
+}
+#google-logo{
+    height: 7em;
+}
+#head-1{
+    font-family: "Google Sans",Roboto,sans-serif;
+    font-size: 3em;
+    letter-spacing: 3px;
+     text-align: center;
+    margin: 0;
+}
+#introductory{
+    font-family: "Google Sans",Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 2em;
+    font-size: 1em;
+    color: rgba(95,99,102);
+    letter-spacing: 1px;        
+}
+#start-assesment{
+    background-color:rgb(13, 113, 226) ;
+    height: 3em;
+    font-size: 1.5em;    
+    color: rgba(255,255,255);
+    font-family: sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 10em;
+    border: none;
+}
+#question-count{
+    margin:2em;
+}
+/* section-three start */
+.test-section{
+   justify-content: center;
+   display: flex;
+   text-align: left;
+}
+.test{  
+    border-radius: 2em;
+    width: 60%;
+    padding: 3em;
+    box-shadow: 5px 5px 10px 10px rgba(136, 136, 136,0.2);
+}
+#question{
+    font-size:2em;
+    font-weight: bolder;
+}
+.choices{
+    display: block;
+}
+.choices button{
+    width: 100%;
+    margin: 1em;
+    height: 4em;
+    border-radius: 1em;
+    background-color: rgba(255,255,255);
+    font-size:18px;
+    padding: 0;
+    font-weight: bolder;
+    border-color: rgba(136, 136, 136,0.2);
+}
+#next{
+   float: right;
+   height: 3em;
+   width: 6em;
+   background-color: rgb(13, 113, 226);
+   border: none;
+   border-radius:5px;
+   color: rgba(255,255,255);
+}
+#previous{
+    height: 3em;
+    width: 8em;
+    border: none;
+    border-radius:5px;
+ }
+.choices button:hover{
+background-color: rgb(13, 113, 226);
+}
+footer{
+    height: 6em;
+    width: 100%;
+    margin-top:6em;
+    background-color: rgba(196,196,196,0.15);
+    display: Flex;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(136, 136, 136);
+    margin: 1em;
+}
+.footer-item{
+    margin-top: 2.5em;
+}
+#logo{
+    font-weight: bolder;
+    font-size: 2em;
+}
+@media only screen and (max-width:360px){
+    #head-1{
+        font-size: 1em;
+        width: 300px;
+        text-align: center;
+    }
+    #workspace{
+        font-size: 1.5em;
+    }
+    #introductory{
+        font-size: 1em;
+        width: 100%;
+        padding: 1em;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+}
+ @media only screen and (min-width:360px){
+    .hero{
+        display: grid; 
+    }
+} 

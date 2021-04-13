@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google-workspace clone</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Sofia|Google Sans">
+    
+</head>
+<body>
+    <main>
+        <div class='hero'>
+            <div class='left'>
+                <img src="images/workspace-quiz-hero-left.png" alt="workspace quiz hero left">
+            </div>
+            <div class='center'>
+                <div class='header'>
+                    <img src="images/Google-Logo.svg" alt="google-workspace logo" id="google-logo">
+                    <p id='workspace'>Workspace</p>
+                </div>
+                <h5 id="head-1">Why settle for the status-quo?</h5>
+                <p id='introductory'> The future of work is here. COVID-19 has accelerated a shift in how organizations like yours get work done. Take this <strong>2-minute assessment</strong>   below to see where you’re at on the journey to the future of work, and get a <strong>free guide</strong>  to help you take the next step.</p>
+                <button id='start-assesment' onclick="location.href='#test'">Start assessment</button>
+            </div>
+            <div class='right'>
+                <img src="images/workspace-quiz-hero-right.png" alt="workspace quiz hero right">
+            </div> 
+        </div>  
+        <div class='test-section'>
+            <div class='test' id='test'>
+                <p id='question'>What's your organization's long-term work strategy?</p>
+                <div class='choices'>
+                    <button>Full return to the office</button>
+                    <button>Hybrid model <sup>1</sup></button>
+                    <button>Fully remote</button>
+                    <button>Not sure</button>
+                    <p><sup>1</sup> Mix of in-office and remote workers</p>
+                </div>
+                <div class='button-group'>
+                    <button id="previous">Previous</button>
+                    <button id='next'>Next</button>
+                </div>
+                <p id='question-count'>1 of 6</p>
+            </div>
+        </div> 
+        <div>
+            <footer>    
+                <a href="#" id='logo'>Google</a>
+                <a href="#" class='footer-item'>About Google</a>
+                <a href="#" class='footer-item'>Google Products</a>
+                <a href="#" class='footer-item'>Privacy</a>
+                <a href="#" class='footer-item'>Terms</a>
+            </footer>
+        </div>   
+    </main>
+</body>
+</html>
